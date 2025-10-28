@@ -3,3 +3,83 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    height: 100%;
+    background-color: rgb(101, 101, 204);
+}
+.nav{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 50px;
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+.nav a{
+    text-decoration: none;
+    color: wheat;
+    margin: 20px;
+    padding: 4px;
+    border-radius: 50px;
+    border: 2px solid;
+    background-color: red;
+}
+.navP{
+    padding: 20px;
+}
+.intro{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px;
+    text-align: center;
+}
+.headerH1{
+    margin: 20px;
+}
+.headerP{
+    margin: 20px;
+}
+.headerImg{
+    padding: 30px;
+    margin: 10px;
+}
+.headerText{
+    display: flex;
+    flex-direction: column;
+}
+.myExperience{
+    height: 100%;
+    background-color: blueviolet;
+    text-align: center;
+}
+.wik{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.exp{
+    padding: 30px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    max-width: 300px;
+    flex: 1;
+}
+.myExperience h2 {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.exp h3 {
+    color: blueviolet;
+    font-size: 1.5em;
+}
