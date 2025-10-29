@@ -2,4 +2,211 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+header{
+    height: 100%;
+    background-color: rgb(40, 45, 66);
+    color: white;
+}
+.nav{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    min-height: 50px;
+    background-color: rgb(40, 45, 66);
+    color: white;
+    width: 100%;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    padding: 8px 16px;
+    border-radius: 50px;
+    border: 2px solid rgb(221, 113, 113);
+    transition: all 0.3s ease;
+}
+.nav a:hover{
+    background-color: rgb(221, 113, 113);
+    color: rgb(40, 45, 66);
+}
+.navP{
+    padding: 20px;
+}
+.intro{
+    min-height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 60px 10%;
+    background: linear-gradient(135deg, #282d42, #3a4160);
+    color: white;
+}
+.headerText{
+    max-width: 600px;
+    text-align: left;
+}
+.headerH1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: rgb(221, 113, 113);
+}
+.headerP{
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+.headerImg img{
+    width: 250px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+.myExperience{
+    background-color: rgb(47, 53, 78);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+.myExperience h2{
+    font-size: 2.2rem;
+    color: rgb(221, 113, 113);
+    margin-bottom: 50px;
+}
+.wik{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.exp{
+    background-color: white;
+    color: #333;
+    border-radius: 15px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+    max-width: 350px;
+    padding: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.exp h3{
+    color: rgb(221, 113, 113);
+    margin-bottom: 15px;
+}
+.port{
+    background-color: rgb(47, 53, 78);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+.myWork{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+.myWork h2{
+    color: rgb(221, 113, 113);
+    padding: 10px;
+}
+.mwHeader{
+    padding: 20px;
+}
+.work{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    color: #333;
+    border-radius: 15px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+    max-width: 300px;
+    padding: 25px;
+    transition: transform 0.3s ease;
+}
+#about{
+    background-color: #2f3550;
+    color: #fff;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+}
+.aboutMe {
+    max-width: 800px;
+    text-align: center;
+    background: linear-gradient(135deg, #f0f4f8, #e6edf5);
+    color: #2c2c2c;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    padding: 40px;
+}
+.aboutMe h2 {
+    color: rgb(221, 113, 113);
+    margin-bottom: 20px;
+}
+.amText{
+    padding: 20px;
+}
+.myInfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    background-color: #f9fafb;
+    padding: 50px 20px;
+    border-top: 1px solid #e0e0e0;
+}
+.myInfo p{
+    color: #1a1919;
+}
+.myInfo a{
+    color: rgb(221, 113, 113);
+    font-weight: bold;
+    text-decoration: none;
+}
+.myInfo a:hover{
+    text-decoration: underline;
+}
+#hire{
+    background-color: #282d42;
+    padding: 80px 20px;
+    text-align: center;
+}
+#hire{
+    background-color: rgb(40, 45, 66);
+}
+.hireBody{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hireText p{
+    color: white;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+.hireBtn{
+    background-color: rgb(221, 113, 113);
+    color: white;
+    border: none;
+    padding: 14px 32px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.hireBtn:hover{
+    background-color: rgb(200, 90, 90);
+    transform: translateY(-3px);
+}
+.hireBtn:active {
+    transform: translateY(0);
 }
