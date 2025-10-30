@@ -14,7 +14,7 @@ header{
     top: 0;
     z-index: 1000;
     min-height: 50px;
-    background-color: rgb(40, 45, 66);
+    background: linear-gradient(135deg,  rgb(47, 53, 78), rgb(40, 45, 66));
     color: white;
     width: 100%;
     display: flex;
@@ -47,7 +47,7 @@ header{
     align-items: center;
     gap: 60px;
     padding: 60px 10%;
-    background: linear-gradient(135deg, #282d42, #3a4160);
+    background: linear-gradient(135deg, rgb(40, 45, 66), rgb(47, 53, 78));
     color: white;
 }
 .headerText{
@@ -67,7 +67,7 @@ header{
     width: 250px;
     height: auto;
     border-radius: 12px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.4);
 }
 .myExperience{
     background-color: rgb(47, 53, 78);
@@ -90,7 +90,7 @@ header{
     background-color: white;
     color: #333;
     border-radius: 15px;
-    box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.4);
     max-width: 350px;
     padding: 30px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -126,10 +126,18 @@ header{
     background-color: white;
     color: #333;
     border-radius: 15px;
-    box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.4);
     max-width: 300px;
     padding: 25px;
     transition: transform 0.3s ease;
+}
+.work a{
+    color: rgb(221, 113, 113);
+    font-weight: bold;
+    text-decoration: none;
+}
+.work a:hover{
+    text-decoration: underline;
 }
 #about{
     background-color: #2f3550;
@@ -138,13 +146,13 @@ header{
     display: flex;
     justify-content: center;
 }
-.aboutMe {
+.aboutMe{
     max-width: 800px;
     text-align: center;
     background: linear-gradient(135deg, #f0f4f8, #e6edf5);
     color: #2c2c2c;
     border-radius: 15px;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
     padding: 40px;
 }
 .aboutMe h2 {
@@ -179,15 +187,12 @@ header{
     background-color: #282d42;
     padding: 80px 20px;
     text-align: center;
-}
-#hire{
     background-color: rgb(40, 45, 66);
 }
 .hireBody{
     max-width: 600px;
     margin: 0 auto;
 }
-
 .hireText p{
     color: white;
     margin-bottom: 25px;
