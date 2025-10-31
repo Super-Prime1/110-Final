@@ -60,8 +60,9 @@ submitBtn.addEventListener("click", () => {
             return;
         }
 
-        alert(`Welcome back, ${(accounts[username].fullName || username)}`);
+        alert(`Welcome back, ${(accounts[username].fullName || username)}, enjoy my portfolio`);
         clearInputs(); // logs in user and greets
+        window.location.href = "index.html" // takes the user to my portfolio
     }
 });
 
